@@ -21,6 +21,7 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src/**/*.ts", // Adjust the path to match your project structure
+    "src/**/*.tsx" // If you're using TypeScript with JSX/TSX
   ]
 }
